@@ -1,0 +1,99 @@
+html {
+  font-size: 8px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Roboto', sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+html {
+  /* background-color: rgb(127,255,212) */
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav {
+  height: 7 0px;
+  flex: 100%;
+  display: flex;
+  background-color: aquamarine;
+  padding: 0;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgb(0,0,0);
+  padding: 0 20px 20px 20px;
+  border: .1px solid black;
+}
+
+img {
+  background-color: black;
+  background-size: 1000px;
+  background-repeat: repeat-x;
+  background-image: url('wildcat.jpg');
+  background-position:center;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 0;
+  color: white;
+}
